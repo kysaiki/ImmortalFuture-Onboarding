@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import CoreLocation
 
 protocol WeatherResponseDelegate {
     func didUpdateWeather(_ weatherResponse: WeatherResponse, weather: WeatherModel)
